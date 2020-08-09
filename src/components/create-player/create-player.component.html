@@ -1,0 +1,15 @@
+<h2>Create new player</h2>
+<form [formGroup]="playerForm">
+  <label>
+    Id:<br/>
+    <input type="text" placeholder="example: 01" formControlName="id">
+  </label>
+
+  <br/><br/>
+  <label>
+    Name:<br/>
+    <input type="text" placeholder="example: John Doe" formControlName="name">
+  </label>
+  <br/><br/>
+  <button (click)="create()">Create</button>
+</form>

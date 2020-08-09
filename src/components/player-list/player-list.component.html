@@ -1,0 +1,6 @@
+<h2>Players List:</h2>
+<ul>
+  <li *ngFor="let player of (playerState | async).players">
+    [{{ player.id }}] - {{ player.name }} - <button (click)="delete(player)">Delete</button>
+  </li>
+</ul>
