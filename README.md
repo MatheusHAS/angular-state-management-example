@@ -1,3 +1,4 @@
 # angular-state-management-example
+> :rocket: Example of how management states on Angular, using ngrx-store. 
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-state-management-example)
+[Click here to view\edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-state-management-example)
